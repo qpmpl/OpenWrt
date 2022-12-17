@@ -69,7 +69,7 @@ jobs:
         $GITHUB_WORKSPACE/$DIY_P1_SH
         
     - name: OpenClash
-        run: |
+      run: 
           mkdir package/luci-app-openclash
           cd package/luci-app-openclash
           git init
